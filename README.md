@@ -12,11 +12,11 @@ The app will start and then, you will get a result similar to the following  in 
 
 ### Endpoints
 
-url | result
-----|----
-localhost:8000/ | "Welcome to my app."
-localhost:8000/fr | "Bienvenu dans mon appli."
-localhost:8000/test | "Knowledge is a power!"
+url                         | result
+----------------------------|------------------------
+localhost:8000/             | "Welcome to my app."
+localhost:8000/fr           | "Bienvenu dans mon appli."
+localhost:8000/test         | "Knowledge is a power!"
 localhost:8000/test?lang=fr | "La connaissance est un pouvoir!"
 localhost:8000/test?lang=en | "Knowledge is a power!"
 
